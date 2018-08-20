@@ -6,7 +6,7 @@ An opensource / opendata Level-3 Highway autopilot system for all modern cars. T
 ## Hardware requirements
 Everything has been tested on real hardware. I know its possible to setup fake interfaces (like a vcan0) device but none of that has been tested.
 
-### Can to USB covertor
+### Can to USB convertor
 You need a CAN to USB convertor. I currently use the one from canable.io which is excellent if you flash the candlelight firmware onto it. The default SLCAN implementation wasn't usable for me. Once thats done you can start up the CAN interface on your system using:
 
 `sudo ip link  set can0 up type can bitrate 500000`
